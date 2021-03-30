@@ -1,6 +1,6 @@
 <?php 
 
-require_once '../src/DataBase.php';
+require_once '../../src/DataBase.php';
 
 $data = [];
 $errors = [];
@@ -48,6 +48,7 @@ if (!empty($_POST)) {
 <body>
     <main>
         <h1>Entrainement à PDO/edition</h1>
+        <button><a href="../index.php">Return</a></button>
         <section>
             <?php if (!empty($errors)): ?>
             <ul>

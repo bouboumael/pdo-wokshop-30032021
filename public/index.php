@@ -1,6 +1,6 @@
 <?php
 
-require_once 'src/DataBase.php';
+require_once '../src/DataBase.php';
 
 $database = new DataBase;
 $libraries = $database->selectAll();

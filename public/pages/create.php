@@ -1,6 +1,6 @@
 <?php
 
-require_once '../src/DataBase.php';
+require_once '../../src/DataBase.php';
 
 $data = [];
 $errors = [];
@@ -49,6 +49,7 @@ if (!empty($_POST)) {
                 <?php endforeach ?>
             </ul>
             <?php endif ?>
+            <button><a href="../index.php">Return</a></button>
             <form action="" method="POST">
                 <label for="title">Titre</label>
                 <input type="text" name="title" id="title" placeholder="Tomtom et Nana" required>
